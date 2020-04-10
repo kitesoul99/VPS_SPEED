@@ -135,13 +135,6 @@ runtest() {
 		echo "ID    测速服务器信息       上传/Mbps   下载/Mbps   延迟/ms"
 		start=$(date +%s) 
 
-		 speed_test '26180' '山东济南５Ｇ' '联通'
-		 speed_test '26678' '广东广州５Ｇ' '联通'
-		 speed_test '27151' '山东临沂５Ｇ' '移动'
-		 speed_test '25881' '山东济南５Ｇ' '移动'
-		 speed_test '27100' '山东青岛５Ｇ' '移动'
-		 speed_test '26501' '山西太原５Ｇ' '移动'
-		
 		 speed_test '3633' '上海' '电信'
 		 speed_test '24012' '内蒙古呼和浩特' '电信'
 		 speed_test '27377' '北京５Ｇ' '电信'
